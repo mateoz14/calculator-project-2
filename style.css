@@ -1,0 +1,49 @@
+* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    baxckground-coloir
+}
+
+.main-container {
+    display: flex;
+    height: 700px;
+    width: 600px;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.output-box {
+    display: flex;
+    height: 120px;
+    font-size: 60px;
+    align-self: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    width: 599px;
+    height: 89px;
+    
+}
+
+.add, .mult, .divi, .sub, .percent, .equal, .expo, .point, 
+.clear, .one, .two, .three, .four, .five, .six, .seven, .eight,
+.nine, .ten, .zero, .blank  {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 90px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
